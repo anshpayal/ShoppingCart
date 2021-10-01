@@ -17,3 +17,5 @@ This is backend for online shopping cart using OOPS concepts and it is command l
 - Cart:
     - Items
     - Total
+
+### Realtionship between components:
