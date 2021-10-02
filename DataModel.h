@@ -13,7 +13,7 @@ public:
         this->name=name;
         this->price=price;
     }
-    string displayProductName(){
+    string displayProduct(){
         return name+" : Rs " + to_string(price);
     }
 };
