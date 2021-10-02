@@ -13,6 +13,19 @@ vector<Product>allProducts={   //this are the products which are availabe.
     Product(006,"pineapple",44),
 };
 
+void chooseProduct(){
+    string productList;
+    cout<<"Available Products"<<endl;
+    for(auto product: allProducts){
+        productList.append(product.displayProduct());
+    }
+    cout<<productList<<endl;
+    cout<<"---------------------------"<<endl;
+    string choice;
+    cin>>choice;
+    
+}
+
 int main(){
     // Product p1(001,"Apple",26);    //testing the product class 
     // cout<<p1.displayProduct();
