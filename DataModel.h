@@ -18,6 +18,9 @@ public:
     string displayProduct(){
         return name+" : Rs " + to_string(price) + "\n";
     }
+    string getShortName(){
+        return name.substr(0,1);
+    }
     friend class Item;
 };
 
