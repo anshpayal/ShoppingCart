@@ -20,7 +20,7 @@ This is backend for online shopping cart using OOPS concepts and it is command l
 
 ### Realtionship between components:
 - Relationship between product and item is 1:1, each item refer to unique product.
-- Relationship between Item and Cart is N:1, each car can contain N number of items.
+- Relationship between Item and Cart is N:1, each cart can contain N number of items.
 
 ### Learnings:
 - OOPS concept.
